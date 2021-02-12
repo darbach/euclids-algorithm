@@ -5,11 +5,6 @@ package edu.cnm.deepdive;
  */
 public class EuclidsAlgorithm {
 
-
-
-
-
-
   /**
    * Find the Greatest Common Divisor for int's a and b. Must be a positive counting integer. If
    * either number is not a natural counting integer (1 or greater) returns -1.
@@ -21,7 +16,7 @@ public class EuclidsAlgorithm {
     //  1. Given two numbers, a and b, where:
     //     * a is a natural counting number
     //     * b is a natural counting number
-    if ((a > 0) || (b > 0)) {
+    if ((a > 0) && (b > 0)) {
       //  2. Define new variables a' and b', with:
       //     * a' = a
       //     * b' = b
